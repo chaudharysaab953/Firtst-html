@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Employer Dashboard</h1>
+
+<form action="backend/postjob.php" method="POST">
+
+    <input type="text" name="title" placeholder="Job Title" required>
+
+    <textarea name="description" placeholder="Job Description"></textarea>
+
+    <input type="text" name="skills" placeholder="Required Skills">
+
+    <input type="text" name="salary" placeholder="Salary">
+
+    <input type="text" name="location" placeholder="Location">
+
+    <button type="submit">Post Job</button>
+
+</form>
+
+</body>
+</html>
